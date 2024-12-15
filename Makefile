@@ -6,7 +6,7 @@ update-repo:
 compile:
         # Install package
         cd ./incubator-wayang
-        mvn clean install -DskipTests
+mvn clean install -DskipTests -Drat.skip=true
         mvn clean package -pl :wayang-assembly -Pdistribution
 
         # Extract binary
@@ -15,4 +15,4 @@ compile:
 
 run:
         cd ./incubator-wayang/wayang-assembly/target/wayang-0.7.1/bin
-        ./wayang-submit org.apache.wayang.$(class) java $(file)
+        ./wayang-submit org.apache.wayang.$(class) java $(folder)
