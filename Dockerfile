@@ -14,6 +14,9 @@ RUN apt-get -y install wget
 # Install git
 RUN apt-get -y install git
 
+# Install vim
+RUN apt-get -y install vim
+
 # Install make 
 RUN apt-get -y install build-essential
 
