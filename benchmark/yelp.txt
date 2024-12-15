@@ -1,0 +1,4 @@
+--- Yelp training data ---
+csv - 783.900000 - 151.661102
+parquet  - 1048.000000 - 318.905002
+parquet projection - 110.000000 - 38.524018

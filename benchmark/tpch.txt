@@ -1,0 +1,12 @@
+--- TPCH Part benchmark - SF1  ---
+csv - 192.050000 - 88.977230
+parquet  - 281.550000 - 449.322877
+parquet projection - 23.150000 - 8.007965
+--- TPCH Part benchmark - SF10  ---
+csv - 2071.400000 - 332.085893
+parquet  - 1792.900000 - 344.523570
+parquet projection - 190.300000 - 65.723740
+--- TPCH Part benchmark - SF100  ---
+csv - 33052.400000 - 11909.616561
+parquet  - 106821.400000 - 18356.239153
+parquet projection - 7408.400000 - 9883.826761
