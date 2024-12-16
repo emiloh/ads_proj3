@@ -1,4 +1,3 @@
 [submodule "incubator-wayang"]
 	path = incubator-wayang
 	url = https://github.com/emiloh/incubator-wayang.git
-	branch = feature/operator-parquet-source
